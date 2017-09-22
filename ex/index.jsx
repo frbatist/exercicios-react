@@ -1,6 +1,12 @@
 import React from 'react'
 import ReactDOM from  'react-dom'
+import {primeiro, segundo} from './componente'
 
 ReactDOM.render(
-    <h1>Olá React</h1>, document.getElementById('app')
+    <div>
+        1234656789
+        <primeiro />
+        <segundo />
+    </div>
+    ,document.getElementById('app')
 )
